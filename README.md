@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-2. Describe what it means to be mobile first vs desktop first.
+    A responsive website adapts the size of the screen no matter the device size. While an adaptive website adjusts its screen size to a particular device's screen size. 
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+2. Describe what it means to be mobile first vs desktop first. 
 
-4. How would you describe preprocessing to someone new to CSS?
+    Mobile first is a website that has been built with a mobile orientation first. This means that any particular desktop website will come as a result from the mobile design. The mobile design will have to be adjusted to accomidate a desktop design. The mobile design begins with a "min-width", while a desktop design's media query is a "max-width". The contrary is said about the desktop first. This means that the website is built as a desktop design first and then built down to accomidate mobile devices. 
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? 
+
+    This font size adjustment allows the developer to use rems in terms of a 1.0 base. This means that if a developer were to insert a font size of 2.0, it actually means that the font size is 20 pixels. 1.5rems would go on to be 15 pixels, etc. 
+
+4. How would you describe preprocessing to someone new to CSS? 
+
+    Preprocessing gives the developer a tool to manage CSS files, easier to read, and makes the css styling reusable. Preprocessors also cut down on how many lines of code a developer has toa actually write. The preprocessor must be installed and directed towards the intended files that the developer wishes to work on. 
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? 
+
+    I love how I am able to see CSS stylings more clearly. I hate how, for some reason, I keep having to ask my preprocessor to watch my CSS file. FOr some reason it disconnects after a while. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,10 +60,10 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
