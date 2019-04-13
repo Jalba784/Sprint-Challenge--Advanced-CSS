@@ -265,7 +265,7 @@ footer {
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
 }
 @media (max-width: 500px) {
   .home .walk {
@@ -277,14 +277,13 @@ footer {
   }
 }
 .home .walk .walk-text {
-  width: 50%;
+  width: 90%;
+  margin-right: 20px;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 460px;
     height: auto;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
   }
 }
 .home .walk .walk-text h3 {
@@ -341,18 +340,17 @@ footer {
   }
 }
 .home .walk .walk-img {
-  width: 46%;
+  width: 70%;
   margin-left: 4%;
 }
 .home .walk .walk-img img {
-  width: 100%;
-  height: auto;
+  width: 50%;
   border-radius: 10px;
 }
 .home .walk .walk-img .astro {
-  margin-top: 20px;
-  margin-bottom: 21px;
-  width: 430px;
-  height: 370px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 21px 20px;
+  width: 110%;
+  height: 250px;
 }
 /*# sourceMappingURL=index.css.map */

@@ -66,7 +66,7 @@
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
     @media @phone {
       display: flex;
       flex-direction: column-reverse;
@@ -75,12 +75,11 @@
       margin: 0px 0px 0px 0px;
     }
     .walk-text {
-      width: 50%;
+      width: 90%;
+      margin-right: 20px;
       @media @phone {
         width: 460px;
         height: auto;
-        padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 0px;
       }
 
       h3 {
@@ -102,18 +101,18 @@
     }
 
     .walk-img {
-      width: 46%;
+      width: 70%; //46%
       margin-left: 4%;
       img {
-        width: 100%;
-        height: auto;
+        width: 50%;
+        //height: 200px; //auto
         border-radius: 10px;
       }
       .astro {
-        margin-top: 20px;
-        margin-bottom: 21px;
-        width: 430px;
-        height: 370px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 21px 20px;
+        width: 110%; //430px
+        height: 250px;
       }
     }
   }
