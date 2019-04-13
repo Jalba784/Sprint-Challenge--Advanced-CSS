@@ -186,6 +186,11 @@ p {
   margin-top: 20px;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  .title-nav-bar h1 {
+    margin-top: 15px;
+  }
+}
 .title-nav-bar nav {
   margin: 20px 0px 50px 0px;
 }
@@ -229,6 +234,22 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+    margin: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;
