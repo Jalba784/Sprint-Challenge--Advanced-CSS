@@ -1,1 +1,41 @@
 // Mixins Here
+
+// Title & Nav
+.title-nav-bar-mixin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  background-color: @main-border-color;
+}
+
+// Nav Bar Links
+.nav-a-mixin {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0px 20px 0px 20px;
+  color: @header-font-color;
+}
+
+// Desktop Sign-up Button
+.button-destop(@text-color, @button-background) {
+  width: 35%;
+  height: 35px;
+  color: @porcelain;
+  background-color: @btn-bg-color;
+  text-align: center;
+  font-size: 2.0rem;
+  padding-top: 7px;
+  border-radius: 5px;
+  &:hover {
+    width: 35%;
+    height: 35px;
+    color: @btn-bg-color;
+    background-color: @porcelain;
+    text-align: center;
+    font-size: 2.0rem;
+    padding-top: 7px;
+    border-radius: 5px;
+  }
+}
